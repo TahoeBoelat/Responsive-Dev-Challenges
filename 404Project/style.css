@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@100&family=Space+Mono&display=swap');
+
+/* Global Variable */
+.navTitle {
+    font-family: 'Inconsolata', monospace;
+}
+.title, .about, .btn{
+    font-family: 'Space Mono', monospace;
+}
+.nameSubmission {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Mobile Style */
+/* Desktop Style */
