@@ -32,7 +32,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/TahoeBoelat/Responsive-Dev-Challenges/main/404Project/Screenshot_2021-01-18_15-18-22.png)
 
-Hello everyone, this is my firt task for fulfill challenge 404 Not Found Challenge from Dev Challenge. This project give me experience for building static page including how to build responsive website using HTML5 and CSS3, also this project give me a spirit to learn again from from basic in field of website development. This project also give me experience for much more learning in topic of CSS Flexbox and CSS Grid.
+Hello everyone, this is my first submission for fulfill challenge 404 Not Found Challenge from Dev Challenge. This project give me experience for building static page including how to build responsive website using HTML5 and CSS3, also this project give me a spirit to learn again from from basic in field of website development. This project also give me experience for much more learning in topic of CSS Flexbox and CSS Grid.
 
 ### Built With
 
