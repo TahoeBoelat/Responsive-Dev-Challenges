@@ -87,7 +87,7 @@
     }
 }
 /* Desktop Style */
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 800px) {
     .navTitle {
         margin-left: 77px;
         margin-top: 40px;
