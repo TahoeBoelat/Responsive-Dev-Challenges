@@ -1,15 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@100&family=Space+Mono&display=swap');
 
-/* Global Variable */
+/* Global Style */
 .navTitle {
     font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
 }
 .title, .about, .btn{
     font-family: 'Space Mono', monospace;
 }
+.title {
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+.about {
+    font-style: normal;
+    font-weight: normal;
+    color: #4f4f4f;
+    letter-spacing: -0.035em;
+}
 .nameSubmission {
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
 }
-
+.btn {
+    background-color: #333333;
+    width: 216px;
+    height: 68px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -0.035em;
+}
 /* Mobile Style */
+@media only screen and (max-width: 650px) {
+    .navTitle {
+        margin-left: 24px;
+        margin-top: 20px;
+    }
+    .img {
+        width: 240px;
+        height: 240px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    .title {
+        font-size: 48px;
+        line-height: 71px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 60px;
+    }
+    .about {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 30px;
+        margin-left: 23px;
+        margin-right: 24px;
+        margin-bottom: 90px;
+    }
+    .btn {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 100px;
+    }
+    .nameSubmission {
+        text-align: center;
+        margin-left: 23px;
+        margin-right: 23px;
+        margin-bottom: 42px;
+    }
+}
 /* Desktop Style */
+@media only screen and (min-width: 770px) {
+    .navTitle {
+        margin-left: 77px;
+        margin-top: 40px;
+    }
+    .body-item {
+        display: flex;
+        align-items: flex-start;
+    }
+    .img {
+        width: 540px;
+        height: 450px;
+        margin-top: 200px;
+        margin-left: 77px;
+    }
+    .title {
+        font-size: 64px;
+        line-height: 95px;
+        margin-top: 200px;
+        margin-left: 119px;
+        margin-bottom: 40px;
+    }
+    .about {
+        font-size: 18px;
+        line-height: 27px;
+        margin-left: 119px;
+        margin-right: 323px;
+    }
+    .btn {
+        margin-top: 90px;
+        margin-left: 119px;
+        margin-right: 323px;
+    }
+    .nameSubmission {
+        margin-top: 293px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
