@@ -1,6 +1,4 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">404Project</h1>
+<h1 align="center">404 Project</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">Devchallenges.io</a>.
@@ -8,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://404devchallengealfi.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/TahoeBoelat/Responsive-Dev-Challenges/tree/main/404Project">
       Solution
     </a>
     <span> | </span>
@@ -22,8 +20,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -32,43 +28,28 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-<!-- OVERVIEW -->
-
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/TahoeBoelat/Responsive-Dev-Challenges/main/404Project/Screenshot_2021-01-18_15-18-22.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Hello everyone, this is my firt task for fulfill challenge 404 Not Found Challenge from Dev Challenge. This project give me experience for building static page including how to build responsive website using HTML5 and CSS3, also this project give me a spirit to learn again from from basic in field of website development. This project also give me experience for much more learning in topic of CSS Flexbox and CSS Grid.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML 5](https://www.w3.org/TR/html52/)
+- [CSS 3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a 404 Not Found (https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) challenge. The 404 Not Found (https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [Css Flexbox from w3 school](https://www.w3schools.com/css/css3_flexbox.asp)
+- [Basic of CSS Flexbox from Mozila Web Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 ## Contact
 
-- Website [Github Page](https://tahoeboelat.github.io})
-- GitHub [@TahoeBoelat](https://{github.com/TahoeBoelat})
+- Website [Github Page](https://tahoeboelat.github.io)
+- GitHub [@TahoeBoelat](https://github.com/TahoeBoelat)
