@@ -86,6 +86,15 @@
         margin-bottom: 42px;
     }
 }
+/* Mobile rotate screen */
+@media only screen and (max-width: 800px) and (orientation:landscape) {
+    .body-item {
+        display: flex;
+    }
+    .img {
+        margin-top: 70px;
+    }
+} 
 /* Desktop Style */
 @media only screen and (min-width: 800px) {
     .navTitle {
