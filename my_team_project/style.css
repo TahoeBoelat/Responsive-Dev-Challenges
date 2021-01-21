@@ -1,1 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=PT+Serif&family=Poppins:wght@200&display=swap');
 
+/* Global Style */
+.aboutTitle, .aboutDesc, .nameEmployee {
+    font-family: 'Poppins', sans-serif;
+}
+.titleWeb, .jobTitle {
+    font-family: 'PT Serif', serif;
+}
+.titleWeb {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+.aboutTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+.jobTitle {
+    writing-mode: vertical-lr;
+}
+.credit {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+}
+/* Mobile Style */
+@media only screen and (max-width: 700px) {
+    .titleWeb {
+        margin-left: 12px;
+        margin-top: 70px;
+    }
+    .aboutTitle {
+        margin-left: 12px;
+        margin-top: 40px;
+    }
+    .aboutDesc {
+        margin-left: 12px;
+        margin-top: 10px;
+        font-style: 14px;
+    }
+    .img {
+        width: 100px;
+        height: 210px;
+    }
+    .imgContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .imgMember {
+        margin-top: 70px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+    }
+    .credit {
+        margin-top: 80px;
+    }
+}
+/* Landscape Mobile Style */
+@media only screen and (max-width: 800px) and (orientation:landscape) {
+    
+}
+/* Desktop Style */
+@media only screen and (min-width:800px) {
+    .aboutWeb {
+        display: flex;
+    }
+    .titleWeb {
+        margin-top: 110px;
+        margin-left: 10%;
+        font-size: 36px;
+    }
+    .aboutTitle {
+        margin-top: 110px;
+        margin-left: 20%;
+    }
+    .aboutDesc {
+        font-size: 18px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .centerAlbum{
+        margin-top: 50px;
+    }
+    .img {
+        width: 305px;
+        height: 471px;
+    }
+    .imgContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .imgMember {
+        margin-top: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+    }
+    .nameEmployee {
+        margin-bottom: 15px;
+    }
+    .credit {
+        margin-top: 100px;
+    }
+}
