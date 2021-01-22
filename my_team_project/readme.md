@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://">
+    <a href="https://myteamprojectalfi.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://https://github.com/TahoeBoelat/Responsive-Dev-Challenges/tree/main/my_team_project">
       Solution
     </a>
     <span> | </span>
@@ -32,18 +32,12 @@
 
 ![screenshot](https://raw.githubusercontent.com/TahoeBoelat/Responsive-Dev-Challenges/main/my_team_project/Screen%20Shot%202021-01-22%20at%2010.07.24.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+Hello everyone, this is my second submission for devchallenge.io on 'My Team' Project. You can see the demo file directly from link i attach before. Im new in front end development so i learn much about HTML tag and how we used grid and css flexbox and very open to any feedback. Thank you.
 
 ### Built With
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML5]
+- [CSS3]
 
 ## Features
 
@@ -52,14 +46,12 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [HTML 5 Text Orientation](https://stackoverflow.com/questions/489340/vertically-align-text-next-to-an-image)
+- [How to make page responsive for any size screen ](https://stackoverflow.com/questions/53739365/how-to-make-my-page-responsive-to-any-screen-size)
+- [Basic concept of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [Grid Container]('https://www.w3schools.com/css/css_grid_container.asp')
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.com](https://tahoeboelat.github.io)
+- GitHub [@your-username](https://github.com/tahoeboelat)
