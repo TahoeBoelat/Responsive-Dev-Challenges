@@ -22,6 +22,10 @@
 .jobTitle {
     writing-mode: vertical-lr;
 }
+.nameEmployee {
+    font-weight: 600;
+    font-style: normal;
+}
 .credit {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -29,7 +33,7 @@
     text-align: center;
 }
 /* Mobile Style */
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 320px) {
     .titleWeb {
         margin-left: 12px;
         margin-top: 70px;
@@ -57,16 +61,21 @@
         margin-right: 10%;
         display: flex;
     }
+    .jobTitle {
+        font-size: 10px;
+    }
+    .nameEmployee {
+        font-size: 12px;
+    }
     .credit {
         margin-top: 80px;
     }
+    .centerMobile {
+        padding-top: 25px;
+    }
 }
 /* Landscape Mobile Style */
-@media only screen and (max-width: 800px) and (orientation:landscape) {
-    
-}
-/* Desktop Style */
-@media only screen and (min-width:800px) {
+@media only screen and (min-width: 480px) and (orientation:landscape) {
     .aboutWeb {
         display: flex;
     }
@@ -84,12 +93,75 @@
         margin-left: 20%;
         margin-right: 20%;
     }
-    .centerAlbum{
-        margin-top: 50px;
+    .img {
+        width: 100px;
+        height: 210px;
+    }
+    .imgContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .imgMember {
+        margin-top: 70px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+    }
+    .DesktopLandscape {
+        padding-top: 50px;
+    }
+}
+/* Tablet Style */
+@media only screen and (min-width: 641px) {
+    .aboutWeb {
+        display: flex;
+    }
+    .titleWeb {
+        margin-top: 110px;
+        margin-left: 10%;
+        font-size: 36px;
+    }
+    .aboutTitle {
+        margin-top: 110px;
+        margin-left: 10%;
+    }
+    .aboutDesc {
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .imgContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .DesktopLandscape {
+        padding-top: 80px;
+    }
+}
+/* Desktop Style */
+@media only screen and (min-width:850px) {
+    .aboutWeb {
+        display: flex;
+    }
+    .titleWeb {
+        margin-top: 110px;
+        margin-left: 10%;
+        font-size: 36px;
+    }
+    .aboutTitle {
+        margin-top: 110px;
+        margin-left: 20%;
+    }
+    .aboutDesc {
+        font-size: 18px;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .img {
-        width: 305px;
-        height: 471px;
+        width: 210px;
+        height: 420px;
     }
     .imgContainer {
         display: grid;
@@ -101,8 +173,14 @@
         margin-right: 10%;
         display: flex;
     }
+    .DesktopLandscape {
+        padding-top: 80px;
+    }
+    .jobTitle {
+        font-size: 20px;
+    }
     .nameEmployee {
-        margin-bottom: 15px;
+        font-size: 18px;
     }
     .credit {
         margin-top: 100px;
