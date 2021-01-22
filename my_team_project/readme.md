@@ -49,7 +49,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [HTML 5 Text Orientation](https://stackoverflow.com/questions/489340/vertically-align-text-next-to-an-image)
 - [How to make page responsive for any size screen ](https://stackoverflow.com/questions/53739365/how-to-make-my-page-responsive-to-any-screen-size)
 - [Basic concept of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
-- [Grid Container]('https://www.w3schools.com/css/css_grid_container.asp')
+- [Grid Container](https://www.w3schools.com/css/css_grid_container.asp)
+- [ETC]
 
 ## Contact
 
