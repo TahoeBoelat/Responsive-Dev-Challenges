@@ -1,1 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
 
+/* Global Style */
+.recipeTitle, .ingridientTitle, .doughTitle, .instructionTitle, .itemInstruction {
+    font-family: 'Playfair Display', sans-serif;
+}
+.recipeTitle {
+    font-weight: 700;
+}
+.desc {
+    font-weight: 500;
+    font-style: italic;
+}
+.yieldsTitle {
+    font-weight: 700;
+}
+.yieldsDesc {
+    font-weight: 500;
+}
+.desc, .yieldsTitle, .yieldsDesc, .timeTitle, .timeDesc, .step, .sourceLink, .credit {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Mobile Style */
+@media only screen and (min-width: 320px) {
+    .recipeTitle {
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .imgDots {
+        padding-top: 17px;
+        position: absolute;
+        margin-left: 10px;
+    }
+    .desc {
+        position: relative;
+        font-size: 12px;
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+    .img {
+        width: 315px;
+        height: 195px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .portionItem {
+        margin-top: 20px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .yieldsIcon {
+        margin-top: 30px;
+        margin-left: 13px;
+        color: rgb(255, 153, 0);
+        position: absolute;
+    }
+    .yieldsTitle {
+        font-size: 8px;
+    }
+    .yieldsDesc {
+        font-size: 10px;
+        color: rgb(255, 153, 0);
+    }
+}
+/* Landscape Mobile Style */
+/* Tablet Style */
+/* Landscape Tablet Style */
+/* Desktop Style */
