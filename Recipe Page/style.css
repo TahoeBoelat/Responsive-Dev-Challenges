@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap');
 
 /* Global Style */
-.recipeTitle, .ingridientTitle, .doughTitle, .instructionTitle, .itemInstruction {
+.recipeTitle, .ingridientTitle, .doughTitle, .instructionTitle, .itemInstruction:before{
     font-family: 'Playfair Display', sans-serif;
+}
+.desc, .yieldsTitle, .yieldsDesc, .timeTitle, .timeDesc, .step, .sourceLink, .credit .itemInstruction {
+    font-family: 'Montserrat', sans-serif;
 }
 .recipeTitle {
     font-weight: 700;
@@ -34,8 +37,13 @@
     font-weight: 700;
     font-size: 24px;
 }
-.desc, .yieldsTitle, .yieldsDesc, .timeTitle, .timeDesc, .step, .sourceLink, .credit {
-    font-family: 'Montserrat', sans-serif;
+.sourceLink {
+    font-weight: 400px;
+    font-style: italic;
+}
+.credit {
+    font-weight: 600px;
+    text-align: center;
 }
 /* Mobile Style */
 @media only screen and (min-width: 320px) {
@@ -97,14 +105,17 @@
         margin-right: 15px;
     }
     .ingridientTitle {
+        margin-left: 12px;
         margin-top: 15px;
     }
     .doughTitle1 {
         margin-top: 13px;
+        margin-left: 12px;
         margin-bottom: 24px;
     }
     .doughTitle2 {
         margin-top: 45px;
+        margin-left: 12px;
         margin-bottom: 24px;
     }
     .checkboxForm {
@@ -121,16 +132,46 @@
         font-size: 14px;
         margin-left: 35px;
     }
-    .listInstruction
+    .instructionTitle {
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    .listInstruction {
+        list-style-type: none;
+        counter-reset: ol-counter;
+    }
+    .listInstruction .itemInstruction:before {
+        background-color: orange;
+        border-style: solid;
+        border-color: orange;
+        border-radius: 5px;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        margin-left: -50px;
+        font-size: 24px;
+        content: counter(ol-counter);
+        counter-increment: ol-counter;
+    }
     .itemInstruction {
-        margin-bottom: 12px;
+        margin-right: 25px;
+        text-align: justify;
+        margin-left: 25px;
+        margin-bottom: 40px;
         font-size: 16px;
     }
     span {
         font-weight: bolder;
     }
+    .sourceLink {
+        margin-top: 40px;
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    .credit {
+        margin-top: 130px;
+        font-size: 14px;
+    }
 }
-/* Landscape Mobile Style */
-/* Tablet Style */
-/* Landscape Tablet Style */
-/* Desktop Style */
