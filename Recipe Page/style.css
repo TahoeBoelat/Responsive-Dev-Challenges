@@ -14,11 +14,11 @@
     font-weight: 500;
     font-style: italic;
 }
-.yieldsTitle {
+.yieldsTitle, .timeTitle {
     text-transform: uppercase;
     font-weight: 700;
 }
-.yieldsDesc {
+.yieldsDesc, .timeDesc {
     text-transform: lowercase;
     font-weight: 500;
 }
@@ -44,6 +44,9 @@
 .credit {
     font-weight: 600px;
     text-align: center;
+}
+span {
+    font-weight: bolder;
 }
 /* Mobile Style */
 @media only screen and (min-width: 320px) {
@@ -105,6 +108,7 @@
         margin-right: 15px;
     }
     .ingridientTitle {
+        font-size: 18px;
         margin-left: 12px;
         margin-top: 15px;
     }
@@ -162,9 +166,6 @@
         margin-bottom: 40px;
         font-size: 16px;
     }
-    span {
-        font-weight: bolder;
-    }
     .sourceLink {
         margin-top: 40px;
         margin-left: 12px;
@@ -173,5 +174,96 @@
     .credit {
         margin-top: 130px;
         font-size: 14px;
+    }
+}
+/* Landscape Mobile And Tablet Style */
+@media only screen and (min-width: 640px) {
+    .recipeTitle, .imgDots, .instructionTitle, .doughTitle1, .doughTitle2, .ingridientTitle, .itemInstruction, .checkboxForm, .sourceLink {
+        margin-left: 60px;
+    }
+    .desc {
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    .itemInstruction, .checkboxForm {
+        margin-right: 40px;
+    }
+    aside {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+}
+/* Desktop Style */
+@media only screen and (min-width: 1025px) {
+    .recipeTitle {
+        margin-top: 50px;
+        margin-left: 240px;
+        font-size: 48px;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .imgDots {
+        margin-top: -25px;
+        padding-top: 17px;
+        position: absolute;
+        margin-left: 240px;
+    }
+    .desc {
+        margin-top: -12px;
+        position: relative;
+        font-size: 14px;
+        margin-left: 260px;
+        margin-right: 400px;
+    }
+    .img {
+        width: 970px;
+        height: 470px;
+        margin-top: 20px;
+    }
+    .yieldsTitle {
+        font-size: 10px;
+    }
+    .yieldsDesc {
+        font-size: 14px;
+    }
+    aside {
+        margin-top: 50px;
+        margin-right: 150px;
+        width: 210px;
+        border-style: hidden;
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+        float: right;
+    }
+    .timeContainerItem {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    .timeTitle {
+        font-size: 10px;
+        float: left;
+        margin-top: -25px;
+        margin-left: 60px;
+    }
+    .timeDesc {
+        font-size: 14px;
+        margin-left: 60px;
+    }
+    .step, .sourceLink, .doughTitle1, .doughTitle2, .ingridientTitle, .instructionTitle {
+        margin-left: 180px;
+        margin-right: 425px;
+    }
+    .ingridientTitle, .instructionTitle{
+        font-size: 24px;
+    }
+    .doughTitle1, .doughTitle2 {
+        font-size: 18px;
+    }
+    .checkbox, .itemInstruction {
+        margin-left: 150px;
+        margin-right: 625px;
     }
 }
