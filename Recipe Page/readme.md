@@ -20,8 +20,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -29,21 +27,17 @@
 - [Features](#features)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
-
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/TahoeBoelat/Responsive-Dev-Challenges/main/Recipe%20Page/Screen%20Shot%202021-01-31%20at%2013.43.08.png)
 
 Hello everyone, this is my third submission challenge on Devchallenge.io platform. This project is about make a static recipe page. From this challenge 
 im learning alot about position on CSS.
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [HTML5]
-- [CSS3]
+- HTML5
+- CSS3
 
 ## Features
 
