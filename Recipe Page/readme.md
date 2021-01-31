@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/TahoeBoelat/Responsive-Dev-Challenges/tree/main/Recipe%20Page">
       Solution
     </a>
     <span> | </span>
