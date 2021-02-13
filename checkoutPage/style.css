@@ -3,7 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.title, .contactInfo, .itemTitle {
+.title, .contactInfo, .itemTitle, .discountPrice, .shippingContainer, .totalContainer {
     font-weight: 600;
     font-style: normal;
 }
@@ -38,6 +38,53 @@ body {
     }
     .price {
         display: flex;
+        margin-left: 18px;
+    }
+        .discountPrice {
+        font-size: 16px;
+        margin-top: -10px;
+        color: orange;
+        margin-right: 15px;
+    }
+    .beforeDiscount {
+        text-decoration: line-through;
+        font-size: 12px;
+        margin-top: -8px;
+    }
+    .buttonComponent {
+        display: flex;
+        justify-content: center;
+        border: 1px solid #a5a5a5;
+        border-radius: 10px;
+        margin-left: 20px;
+        width: 135px;
+        height: 50px;
+    }
+    .btnMinus, .btnPlus {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #b1aeae;
+    }
+    .ammount {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .shippingContainer {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #a5a5a5;
+        border-bottom: 1px solid #a5a5a5;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 90px;
+    }
+    .totalContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 30px; 
     }
 }
 /* Landscape Mobile and Tablet */
