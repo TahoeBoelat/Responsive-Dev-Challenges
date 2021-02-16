@@ -57,63 +57,29 @@
     </aside>
     <!-- Section -->
     <section>
-        <h3 class="contactTitle">Contact Information</h3>
         <form class="contactForm">
-            <div class="contactInfo">
-                <div>
-                    <label class="labelTitle" for="email">Email</label>
-                    <i class="material-icons">email</i>
-                    <input type="email" name="email" placeholder="Enter your email">
-                </div>
-                <div>
-                    <label class="labelTitle" for="email">Phone</label>
-                    <i class="material-icons">call</i>
-                    <input type="text" name="phone" placeholder="Enter your phone number">
-                </div>
+            <h3 class="contactTitle">Contact Information</h3>
+            <div class="itemContainer">
+                <label for="email" class="formLabel">Email</label>
+                <i class="material-icons icons">email</i>
+                <input type="email" name="email" class="inputForm" placeholder="Enter your email">
             </div>
-            <div class="shippingInfo">
-                <h3 class="shippingTitle">Shipping Addess</h3>
-                <div>
-                    <label class="labelTitle" for="full_name">Full Name</label>
-                    <i class="material-icons">account_circle</i>
-                    <input type="text" name="full_name" placeholder="Enter your full name">
-                </div>
-                <div>
-                    <label class="labelTitle" for="address">Address</label>
-                    <i class="material-icons">home</i>
-                    <input type="text" name="address" placeholder="Enter your address">
-                </div>
-                <div>
-                    <label class="labelTitle" for="location_city">City</label>
-                    <i class="material-icons">location_city</i>
-                    <input type="text" name="location_city" placeholder="Enter your city">
-                </div>
-                <div>
-                    <div class="countryForm">
-                        <label class="labelTitle" for="list_country">Country</label>
-                        <i class="material-icons">public</i>
-                        <input list="country_list" placeholder="Your country" class="list_country">
-                        <datalist id="country_list">
-                            <option value="1">America</option>
-                            <option value="2">Canada</option>
-                            <option value="3">Mexico</option>
-                            <option value="4">Panama</option>
-                            <option value="5">Brazil</option>
-                        </datalist>
-                        <i class="material-icons">keyboard_arrow_down</i>
-                    </div>
-                    <div class="postForm">
-                        <label class="labelTitle" for="postCode">Postal Code</label>
-                        <i class="material-icons">markunread_mailbox</i>
-                        <input type="text" name="postCode" placeholder="Enter your postcode">
-                    </div>
-                </div>
-                <div>
-                    <input type="checkbox" name="saveInfo" class="saveInfo">
-                    <label for="saveInfo" class="labelTitle">Save this information for next time</label>
-                </div>
+            <div class="itemContainer">
+                <label for="phone" class="formLabel">Phone</label>
+                <i class="material-icons icons">call</i>
+                <input type="text" name="phone" class="inputForm" placeholder="Enter your phone">
             </div>
-            <button type="submit" class="btn">Continue</button>
+            <h3 class="shippingFormTitle">Shipping Addess</h3>
+            <div class="itemContainer">
+                <label class="formLabel" for="full_name">Full Name</label>
+                <i class="material-icons icons">account_circle</i>
+                <input type="text" name="full_name" placeholder="Enter your full name" class="inputForm">
+            </div>
+            <div class="itemContainer">
+                <label class="formLabel" for="address">Adress</label>
+                <i class="material-icons icons">location_city</i>
+                <input type="text" name="address" placeholder="Enter your address" class="inputForm">
+            </div>
         </form>
     </section>
     <!-- Footer -->
