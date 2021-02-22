@@ -80,6 +80,29 @@
                 <i class="material-icons icons">location_city</i>
                 <input type="text" name="address" placeholder="Enter your address" class="inputForm">
             </div>
+            <div class="countryForm">
+                <div class="itemContainer">
+                    <i class="material-icons icons">public</i>
+                    <label class="formLabel" for="list_country">Country</label>
+                    <select name="list_country" class="inputForm">
+                        <option value="0">Your Country</option>
+                        <option value="1">Finland</option>
+                        <option value="2">Denmark</option>
+                        <option value="3">Estonia</option>
+                        <option value="4">Swedia</option>
+                    </select>
+                </div>
+                <div class="itemContainer">
+                    <label class="formLabel" for="postCode">Postal Code</label>
+                    <i class="material-icons icons">markunread_mailbox</i>
+                    <input type="text" name="postCode" placeholder="Your postal code" class="inputForm postCode">
+                </div>
+            </div>
+            <div class="radioInput">
+                <input type="checkbox" name="saveInfo" class="saveInfo">
+                <label for="saveInfo" class="formLabel">Save this information for next time</label>
+            </div>
+            <button type="submit" class="btnSubmit">Continue</button>
         </form>
     </section>
     <!-- Footer -->
