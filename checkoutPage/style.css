@@ -145,5 +145,36 @@ body {
         font-size: 14px;
     }
 }
-/* Landscape Mobile and Tablet */
-/* Desktop and Portrait Tablet style */
+/* Landscape Mobile */
+@media only screen and (min-width: 640px) {
+    .itemList{
+        width: 650px;
+    }
+}
+/* Desktop and Tablet style */
+@media only screen and (min-width: 1025px) {
+    .title {
+        margin-left: 240px;
+        font-size: 36px;
+    }
+    .itemList {
+        float: right;
+        width: 383px;
+        height: 635px;
+        margin-right: 140px;
+    }
+    .contactForm {
+        margin-left: 240px;
+    }
+    .contactTitle {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .btnSubmit {
+        margin-top: 25px;
+        margin-right: 110px;
+    }
+    .credit {
+        margin-top: 175px;
+    }
+}
