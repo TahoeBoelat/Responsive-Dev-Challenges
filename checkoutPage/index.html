@@ -57,34 +57,34 @@
     </aside>
     <!-- Section -->
     <section>
-        <form class="contactForm">
+        <form class="contactForm" method="post" id="formContact">
             <h3 class="contactTitle">Contact Information</h3>
             <div class="itemContainer">
                 <label for="email" class="formLabel">Email</label>
                 <i class="material-icons icons">email</i>
-                <input type="email" name="email" class="inputForm" placeholder="Enter your email">
+                <input type="email" name="email" id="emailUser" class="inputForm" placeholder="Enter your email">
             </div>
             <div class="itemContainer">
                 <label for="phone" class="formLabel">Phone</label>
                 <i class="material-icons icons">call</i>
-                <input type="text" name="phone" class="inputForm" placeholder="Enter your phone">
+                <input type="text" name="phone" id="userphoneNumber" class="inputForm" placeholder="Enter your phone">
             </div>
             <h3 class="shippingFormTitle">Shipping Addess</h3>
             <div class="itemContainer">
                 <label class="formLabel" for="full_name">Full Name</label>
                 <i class="material-icons icons">account_circle</i>
-                <input type="text" name="full_name" placeholder="Enter your full name" class="inputForm">
+                <input type="text" name="full_name" placeholder="Enter your full name" id="userfullName" class="inputForm">
             </div>
             <div class="itemContainer">
                 <label class="formLabel" for="address">Adress</label>
                 <i class="material-icons icons">location_city</i>
-                <input type="text" name="address" placeholder="Enter your address" class="inputForm">
+                <input type="text" name="address" placeholder="Enter your address" id="userAdress" class="inputForm">
             </div>
             <div class="countryForm">
                 <div class="itemContainer">
                     <i class="material-icons icons">public</i>
                     <label class="formLabel" for="list_country">Country</label>
-                    <select name="list_country" class="inputForm">
+                    <select name="list_country" id="usercountryList" class="inputForm">
                         <option value="0">Your Country</option>
                         <option value="1">Finland</option>
                         <option value="2">Denmark</option>
@@ -95,20 +95,21 @@
                 <div class="itemContainer">
                     <label class="formLabel" for="postCode">Postal Code</label>
                     <i class="material-icons icons">markunread_mailbox</i>
-                    <input type="text" name="postCode" placeholder="Your postal code" class="inputForm postCode">
+                    <input type="text" name="postCode" placeholder="Your postal code" id="userpostalCode" class="inputForm postCode">
                 </div>
             </div>
             <div class="radioInput">
                 <input type="checkbox" name="saveInfo" class="saveInfo">
                 <label for="saveInfo" class="formLabel">Save this information for next time</label>
             </div>
-            <button type="submit" class="btnSubmit">Continue</button>
+            <button type="submit" class="btnSubmit" id="btnSubmit">Continue</button>
         </form>
     </section>
     <!-- Footer -->
      <footer>
         <p class="credit">Muhamad Nur Alfi Syahrin</p>
     </footer>
+    <script src="app.js"></script>
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </body>
 </html>
