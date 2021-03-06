@@ -1,7 +1,0 @@
-const formContact = document.querySelector('formContact');
-const emailUser = document.querySelector('emailUser');
-const phoneUser = document.querySelector('userphoneNumber');
-const userName = document.querySelector('userfullName');
-const userAdress = document.querySelector('userAdress');
-const userCountry = document.querySelector('usercountryList');
-const userPostCode = document.querySelector('userPostalCode');
