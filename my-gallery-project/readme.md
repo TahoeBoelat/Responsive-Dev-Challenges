@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://gallerydevchallenge.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://github.com/TahoeBoelat/Responsive-Dev-Challenges/tree/main/my-gallery-project">
       Solution
     </a>
     <span> | </span>
-    <a href=" ">
+    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
     </a>
   </h3>
@@ -38,7 +38,7 @@ Hello everyone, this is my fifth submission challenge on Devchallenge.io platfor
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges] Recipe Page challenge. The Gallery Page Challenge (https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
+This application/site was created as a submission to a [DevChallenges] Recipe Page challenge. The Gallery Page Challenge (https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the following user stories:
 
 ## Contact
 
