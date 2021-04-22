@@ -38,7 +38,9 @@ Hello everyone, this is my fifth submission challenge on Devchallenge.io platfor
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges] Recipe Page challenge. The Gallery Page Challenge (https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the following user stories:
+This application/site was created as a submission to a [DevChallenges] gallery page challenge. The Gallery Page Challenge (https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the following user stories:
+
+User story: I can see a page following the given design
 
 ## Contact
 
