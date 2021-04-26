@@ -29,3 +29,31 @@
     font-family: 'Lora', Arial;
     font-size: 48px;
 }
+.article-title p, a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000000 !important;
+    font-weight: 500;
+}
+.portfolio-img {
+    width: 90%;
+    height: 65%;
+}
+.img-portfolio p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000 !important;
+    font-weight: 550;
+}
+.img-portfolio .portfolio-desc {
+    font-family: 'Lora', Arial;
+    font-size: 24px;
+}
+.img-portfolio .interior-designer {
+    width: 85px;
+    height: 85px;
+}
+.designer-desc {
+    background-color: #000000;
+    color: #ffffff;
+    z-index: -1;
+}
