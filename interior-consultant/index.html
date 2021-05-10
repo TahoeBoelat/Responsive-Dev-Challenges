@@ -1,25 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
 
-    <title>Hello, world!</title>
+    <title>Interior Consultant</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="btn btn-outline-dark btn-lg" href="#">This Interior</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand btn btn-outline-dark" href="#">This Interior</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
@@ -34,33 +35,45 @@
             </li>
           </ul>
         </div>
+      </div>
     </nav>
-    <!-- Main Content -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col article-title">
-                <h1>Modern Interior</h1>
-                <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
-                <p>Read more</p>
-            </div>
-            <div class="col img-portfolio">
-                <img src="./img/photo1.png" class="portfolio-img img-fluid" alt="designer portfolio">
-                <div class="row">
-                  <div class="col">
-                    <img src="./img/photo2.png" class="interior-designer rounded-circle" alt="interior designer">
-                  </div>
-                  <div class="col">
-                    <p class="designer-name">Aliza Webber</p>
-                    <p class="designer-job">Interior Designer</p>
-                  </div>
-                </div>
-                <p class="portfolio-desc">Designed in 2020 by Aliza Webber</p>
-            </div>
+    <!-- Akhir Navbar -->
+    <!-- Item Utama -->
+    <div class="container">
+      <div class="row modernInterior">
+        <div class="col-md-6 description">
+          <h1 class="display-4">Modern Interior</h1>
+          <p>A full-Service residential & commercial interior design and stagging company offering professional organizing & eco-services</p>
+          <a href="#">Read more</a>
         </div>
+        <div class="col-md-6">
+          <img src="./img/photo1.png" alt="Product design" width="600px" />
+        </div>
+      </div>
     </div>
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Akhir Item Utama -->
+    <!-- Item Card -->
+    <div class="container mt-n1 cardItems">
+      <div class="row text-end">
+        <div class="col">
+          <img src="./img/photo2.png" alt="Designer Photo" class="rounded-circle" />
+        </div>
+        <div class="col">
+          <p>Aliza Webber</p>
+          <p>Interior Consultant</p>
+        </div>
+      </div>
+      <div class="row text-end">
+        <div class="col">
+          <p>Designed in 2020 by Aliza Webber</p>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Item Card -->
+    <!-- Footer -->
+    <footer class="text-center mt-3">
+      <p>created by Muhamad Nur Alfi Syahrin - devChallenge.io</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
   </body>
 </html>
