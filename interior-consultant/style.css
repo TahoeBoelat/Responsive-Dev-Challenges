@@ -6,6 +6,13 @@
 .description {
   margin-top: 8em !important;
 }
-.cardItems {
-  background-color: #f2eaea;
+.mt-n1 {
+  margin-top: -2rem !important;
+}
+.card-title,
+.card-subtitle {
+  margin-left: 1em;
+}
+.card-text {
+  margin-top: 1em;
 }
