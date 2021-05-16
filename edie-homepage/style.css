@@ -1,1 +1,44 @@
-    
+    @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap");
+/* Global Style */
+.navbar-brand {
+  font-family: "Heebo", sans-serif;
+}
+.nav-link,
+.firstParagraph,
+.firstJargon,
+.secondParagraph,
+.secondJargon,
+.emailLabel {
+  font-family: "Poppins", sans-serif;
+}
+/* Global Style */
+/* Desktop */
+/* Navbar */
+.navbar-brand {
+  font-size: 1em;
+  font-weight: 800;
+}
+.nav-link {
+  font-weight: 500;
+}
+.firstParagraph {
+  color: #2d9cdb;
+}
+.secondParagraph {
+  font-size: 1.125em;
+}
+.firstJargon,
+.secondJargon {
+  font-size: 2.65em;
+}
+.img {
+  width: 74em;
+  border-radius: 18px;
+}
+.card {
+  width: 27em !important;
+}
+/* Akhir Navbar */
+/* Akhir Desktop */
+/* Mobile */
+/* Akhir Mobile */
