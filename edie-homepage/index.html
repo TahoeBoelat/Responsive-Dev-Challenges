@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <title>Eddie Homepage</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Eddie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link me-2" href="#">Home</a>
+            <a class="nav-link me-2" href="#">Services</a>
+            <a class="nav-link me-2" href="#">Our Works</a>
+            <a class="nav-link me-2" href="#">Client</a>
+            <a class="nav-link me-2" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Jumbotron -->
+    <section class="jumbotron mt-5">
+      <div class="container">
+        <p class="firstParagraph ms-5">Unhappy with your website?</p>
+        <h4 class="firstJargon ms-5 mb-4">
+          We create beautiful <br />
+          and fast web services
+        </h4>
+        <img src="./img/heroImage.jpg" alt="Company Profile" class="img" />
+        <div class="card ms-5 border-0 mt-5">
+          <div class="card-body">
+            <h4 class="card-title secondJargon">Story, emotion and purpose</h4>
+            <p class="card-text secondParagraph">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+            <form class="row">
+              <label for="email" class="emailLabel">Want us to contact you?</label>
+              <div class="row mt-3">
+                <div class="col">
+                  <input type="text" class="form-control" id="emailSubscriber" placeholder="Email" />
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-primary">Join</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Jumbotron -->
+    <!-- Awal Service -->
+    <section id="service"></section>
+    <!-- Akhir Service -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
