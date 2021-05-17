@@ -39,6 +39,34 @@
   width: 27em !important;
 }
 /* Akhir Navbar */
+/* Service section */
+#services {
+  margin-top: 8em !important;
+}
+.serviceCard .card-title {
+  margin-top: 2rem;
+}
+.serviceCard .card-text {
+  margin-bottom: 2rem;
+}
+/* Akhir service section */
+/* Work section */
+#our-work {
+  margin-top: 6em !important;
+}
+.imgWork {
+  width: 28em;
+  height: 28em;
+  border-radius: 34px;
+}
+.workCard .card-title {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+.workCard .card-text {
+  font-size: 24px;
+}
+/* Akhir work section */
 /* Akhir Desktop */
 /* Mobile */
 /* Akhir Mobile */
