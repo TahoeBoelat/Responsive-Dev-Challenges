@@ -8,8 +8,28 @@
 .firstJargon,
 .secondParagraph,
 .secondJargon,
-.emailLabel {
+.emailLabel,
+.card-title,
+.card-text,
+.seeMore,
+.actionTitle,
+.actionDesc,
+.testimoniText,
+.testimoniGiven,
+.testimoniGivenJob,
+.footer-link {
   font-family: "Poppins", sans-serif;
+}
+.seeMore {
+  text-decoration: none;
+}
+.tombol:hover {
+  background-color: #4285f4 !important;
+}
+.userTestimoni {
+  width: 135px;
+  height: 135px;
+  border-radius: 10px;
 }
 /* Global Style */
 /* Desktop */
@@ -69,12 +89,58 @@
 .workCard .card-text {
   font-size: 24px;
 }
+
 /* Akhir work section */
 /* Team section */
 #team-section {
   margin-top: 8em;
 }
+.imgMember {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
 /* Akhir team section */
+/* Testimoni section */
+#testimoni {
+  margin-top: 5em;
+}
+.testimoniGiven,
+.testimoniGivenJob {
+  margin-left: -23em !important;
+}
+.testimoniText {
+  font-size: 36px;
+}
+.actionTitle h3 {
+  font-size: 36px !important;
+}
+/* Akhir testimoni */
+/* Footer */
+#footer {
+  margin-top: 6em;
+  background-color: #100e1d !important;
+  position: absolute;
+  width: 100%;
+  /* Height of the footer*/
+}
+.menu-link {
+  margin-top: 3em;
+}
+.footer-brand {
+  color: #fff;
+}
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+.social-media {
+  margin-right: 15px;
+}
+.btn {
+  margin-left: -4em;
+}
+/* Akhir footer */
 /* Akhir Desktop */
 /* Mobile */
 /* Akhir Mobile */
