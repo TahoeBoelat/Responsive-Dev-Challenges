@@ -137,10 +137,79 @@
 .social-media {
   margin-right: 15px;
 }
-.btn {
+.btn-form {
   margin-left: -4em;
 }
 /* Akhir footer */
 /* Akhir Desktop */
 /* Mobile */
+@media (max-width: 480px) {
+  .jumbotron {
+    margin-left: -50px !important;
+  }
+  .card-title {
+    font-size: 1.6rem;
+  }
+  .card-text {
+    font-size: 1.12rem !important;
+  }
+  .actionTitle {
+    margin-left: 1.12em;
+    font-size: 24px;
+  }
+  /* Jumbotron */
+  .firstParagraph {
+    font-size: 12px;
+  }
+  .firstJargon {
+    font-size: 24px;
+  }
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 8em;
+  }
+  .secondJargon {
+    margin-left: -12px;
+    font-size: 24px;
+  }
+  .secondParagraph {
+    margin-left: -12px;
+    font-size: 12px;
+  }
+  .emailLabel {
+    margin-left: -12px;
+    font-size: 10px;
+  }
+  .form-email {
+    height: 40px;
+    margin-left: -12px;
+  }
+  /* Akhir Jumbotron */
+  /* Service */
+  .serviceCard {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2em;
+  }
+  /* Akhir services */
+  /* Our work */
+  .imgWork {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 18rem;
+    height: 18rem;
+  }
+  .seeMore {
+    margin-right: 25px;
+  }
+  /* Akhir our work */
+  /* Team */
+  .actionDesc {
+    font-size: 36px;
+  }
+  /* Akhir Team */
+}
 /* Akhir Mobile */
