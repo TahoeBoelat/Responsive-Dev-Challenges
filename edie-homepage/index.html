@@ -8,12 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
     <title>Eddie Homepage</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <a class="navbar-brand" href="#">Eddie</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,23 +36,23 @@
     <section class="jumbotron mt-5">
       <div class="container">
         <p class="firstParagraph ms-5">Unhappy with your website?</p>
-        <h4 class="firstJargon ms-5 mb-4">
+        <h4 class="firstJargon ms-5 mb-3">
           We create beautiful <br />
           and fast web services
         </h4>
         <img src="./img/heroImage.jpg" alt="Company Profile" class="img" />
-        <div class="card ms-5 border-0 mt-5">
-          <div class="card-body">
-            <h4 class="card-title secondJargon">Story, emotion and purpose</h4>
-            <p class="card-text secondParagraph">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
-            <form class="row">
-              <label for="email" class="emailLabel">Want us to contact you?</label>
-              <div class="row mt-3">
+        <div class="row ms-5 mt-3">
+          <div class="col">
+            <h4 class="secondJargon">Story, emotion and purpose</h4>
+            <p class="secondParagraph">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+            <form class="mt-5">
+              <label for="email" class="emailLabel mb-3">Want us to contact you?</label>
+              <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" id="emailSubscriber" placeholder="Email" />
+                  <input type="email" class="formEmail form-control form-control-lg" id="emailSubscriber" placeholder="Email" />
                 </div>
                 <div class="col">
-                  <button type="submit" class="btn btn-primary">Join</button>
+                  <button type="submit" class="btn btn-form btn-primary btnEmail">Join</button>
                 </div>
               </div>
             </form>
@@ -65,7 +66,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4 class="mb-5">We offer high demand services</h4>
+            <h4 class="actionTitle mb-4">We offer high demand services</h4>
           </div>
         </div>
         <div class="row justify-content-evenly">
@@ -81,7 +82,7 @@
                 </i>
                 <h4 class="card-title">UI/UX Design</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-                <a href="#" class="btn btn-secondary">Get started</a>
+                <a href="#" class="tombol btn btn-secondary">Get started</a>
               </div>
             </div>
           </div>
@@ -97,7 +98,7 @@
                 </i>
                 <h4 class="card-title">Front-End</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-                <a href="#" class="btn btn-primary">Get started</a>
+                <a href="#" class="tombol btn btn-secondary">Get started</a>
               </div>
             </div>
           </div>
@@ -115,7 +116,7 @@
                 </i>
                 <h4 class="card-title">Back-End</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-                <a href="#" class="btn btn-secondary">Get started</a>
+                <a href="#" class="tombol btn btn-secondary">Get started</a>
               </div>
             </div>
           </div>
@@ -128,7 +129,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4>
+            <h4 class="actionTitle">
               Good design means <br />
               good business
             </h4>
@@ -174,7 +175,7 @@
         </div>
         <div class="row text-end">
           <div class="col">
-            <a href="#">See more</a>
+            <a href="#" class="seeMore">See more<i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -187,11 +188,17 @@
           <div class="col">
             <p class="actionTitle">Meet the team</p>
             <h3 class="actionDesc">We are chilled and a laidback team</h3>
-            <p class="actionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="actionDesc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col">
+            <img src="./img/person2.png" alt="member 2" class="imgMember" />
           </div>
           <div class="col">
-            <img src="./img/person2.png" alt="member 2" class="imgMember mb-3 me-3" />
             <img src="./img/person1.png" alt="member 1" class="imgMember" />
+          </div>
+          <div class="col">
             <img src="./img/person3.png" alt="member 3" class="imgMember" />
           </div>
         </div>
@@ -206,7 +213,7 @@
             <h5 class="testimoniText">“Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”</h5>
           </div>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-5">
           <div class="col">
             <img src="./img/person4.png" alt="user testimoni" class="userTestimoni" />
           </div>
@@ -241,7 +248,7 @@
           <form>
             <div class="d-flex flex-row">
               <input type="email" placeholder="email" class="form-control form-control-sm" />
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btnFooter btn-form btn-primary">Submit</button>
             </div>
           </form>
         </div>
