@@ -59,6 +59,11 @@
   width: 27em !important;
 }
 /* Akhir Navbar */
+/* Jumbotron */
+.formEmail {
+  margin-top: -0.25em;
+}
+/* Akhir Jumbotron */
 /* Service section */
 #services {
   margin-top: 8em !important;
@@ -93,12 +98,13 @@
 /* Akhir work section */
 /* Team section */
 #team-section {
-  margin-top: 8em;
+  margin-top: 4em;
 }
 .imgMember {
+  margin-left: 3em;
+  margin-right: 3em;
   width: 250px;
   height: 250px;
-  border-radius: 15px;
 }
 /* Akhir team section */
 /* Testimoni section */
@@ -137,13 +143,16 @@
 .social-media {
   margin-right: 15px;
 }
-.btn-form {
+.btnFooter {
   margin-left: -4em;
 }
 /* Akhir footer */
 /* Akhir Desktop */
 /* Mobile */
 @media (max-width: 480px) {
+  .container {
+    overflow-x: hidden;
+  }
   .jumbotron {
     margin-left: -50px !important;
   }
@@ -154,7 +163,7 @@
     font-size: 1.12rem !important;
   }
   .actionTitle {
-    margin-left: 1.12em;
+    margin-left: 1em;
     font-size: 24px;
   }
   /* Jumbotron */
@@ -162,6 +171,7 @@
     font-size: 12px;
   }
   .firstJargon {
+    margin-bottom: 4em;
     font-size: 24px;
   }
   .img {
@@ -172,33 +182,38 @@
     height: 8em;
   }
   .secondJargon {
-    margin-left: -12px;
+    margin-left: -0.5em;
     font-size: 24px;
   }
   .secondParagraph {
-    margin-left: -12px;
+    margin-left: -0.5em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-size: 12px;
   }
   .emailLabel {
-    margin-left: -12px;
+    margin-left: -0.5em;
     font-size: 10px;
   }
-  .form-email {
-    height: 40px;
-    margin-left: -12px;
+  .formEmail {
+    width: 10em !important;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 12px;
   }
   /* Akhir Jumbotron */
   /* Service */
   .serviceCard {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     margin-bottom: 2em;
   }
   /* Akhir services */
   /* Our work */
   .imgWork {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     width: 18rem;
     height: 18rem;
   }
@@ -208,7 +223,17 @@
   /* Akhir our work */
   /* Team */
   .actionDesc {
-    font-size: 36px;
+    margin-left: 1.12rem;
+    font-size: 28px;
+  }
+  .actionDesc2 {
+    margin-left: 1.12rem;
+    font-size: 14px !important;
+  }
+  .imgMember {
+    padding-left: 1em;
+    margin-right: 2rem;
+    margin-bottom: 1.15em;
   }
   /* Akhir Team */
 }
