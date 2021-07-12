@@ -31,6 +31,9 @@
   height: 135px;
   border-radius: 10px;
 }
+.footerSubscribe {
+  color: #fff;
+}
 /* Global Style */
 /* Desktop */
 /* Navbar */
@@ -113,7 +116,7 @@
 }
 .testimoniGiven,
 .testimoniGivenJob {
-  margin-left: -23em !important;
+  margin-left: -25rem !important;
 }
 .testimoniText {
   font-size: 36px;
@@ -130,7 +133,12 @@
   width: 100%;
   /* Height of the footer*/
 }
+.footerContainer {
+  justify-content: space-evenly;
+  display: flex !important;
+}
 .menu-link {
+  display: grid;
   margin-top: 3em;
 }
 .footer-brand {
@@ -138,13 +146,23 @@
 }
 .footer-link {
   color: #fff;
+  padding-bottom: 10px;
   text-decoration: none;
 }
 .social-media {
-  margin-right: 15px;
+  margin-top: -4.5em;
+  margin-right: 10px;
+}
+.formFooter {
+  margin-top: -3.5rem;
+  display: flex;
+}
+.inputFooter,
+.btnFooter {
+  height: 40px;
 }
 .btnFooter {
-  margin-left: -4em;
+  margin-left: 15px;
 }
 /* Akhir footer */
 /* Akhir Desktop */
@@ -236,5 +254,37 @@
     margin-bottom: 1.15em;
   }
   /* Akhir Team */
+  /* Testimoni */
+  .testimoniText {
+    font-size: 24px;
+  }
+  .testimoniGiven,
+  .testimoniGivenJob {
+    margin-left: 0.1rem !important;
+  }
+  .testimoniGiven {
+    font-weight: bold;
+  }
+  .testimoniGivenJob {
+    font-size: 12px;
+  }
+  /* Akhir Testimoni */
+  /* Footer */
+  .footerContainer {
+    display: block !important;
+  }
+  .menu-link {
+    margin-bottom: 2.5rem;
+  }
+  .social-media {
+    margin-top: 1rem;
+  }
+  .footerSubscribe {
+    margin-top: 1.5rem;
+  }
+  .formFooter {
+    margin-top: 0.5em;
+  }
+  /* Akhir Footer */
 }
 /* Akhir Mobile */
